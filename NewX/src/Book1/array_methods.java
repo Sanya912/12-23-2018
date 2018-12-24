@@ -8,6 +8,7 @@ public class array_methods {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("commit");
 		prinArray(new int[]{2,4,6,8,0,12});
 //		int [] array= new int [5];
 //		array = new int [57];

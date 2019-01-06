@@ -18,7 +18,7 @@ public class ArrayCountTrueException {
 		
 		try {
 		for(boolean i : d) {
-			if(i==true) {
+			if(i) {
 			count+=1;	
 			}
 			

@@ -15,7 +15,6 @@ INDEX VERSION 1.130+C:\Users\Sasha\eclipse-workspace1\.metadata\.plugins\org.ecl
 994025239.index
 3579096017.index
 1487651308.index
-3077695955.index
 3149132945.index
 549579523.index
 3251842820.index

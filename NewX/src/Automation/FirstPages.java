@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FirstPages {
@@ -13,8 +14,9 @@ public class FirstPages {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://en.oxforddictionaries.com");
 		
-		driver.findElement(By.id("query")).sendKeys("bombed");
-		driver.findElement(By.id("query")).sendKeys(Keys.ENTER);
+		WebElement re = driver.findElement(By.id("query"));
+		re.sendKeys("bombed");
+		re.sendKeys(Keys.ENTER);
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@data-value='GRAMMAR ']")).click();
 		

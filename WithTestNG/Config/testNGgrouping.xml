@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Test" parallel="classes">
+<test name = "testNGgrouping"> 
+<groups>
+<run>
+<include name="A"/>
+</run>
+</groups>
+<classes>
+<class name="TestNNNNNG.NewTest"/>
+<class name="TestNNNNNG.firsttestngfile"/>
+
+</classes>
+</test>
+</suite>
